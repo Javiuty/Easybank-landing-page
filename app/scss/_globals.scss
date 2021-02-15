@@ -23,6 +23,10 @@ body {
   }
 }
 
+h1, h2, h3 {
+  margin-top: 0;
+}
+
 a,
 a:visited,
 a:hover {
@@ -31,8 +35,10 @@ a:hover {
 
 // spacing
 .container {
-  padding-left: 1.5rem;
+  padding-top:2.25rem;
   padding-right: 1.5rem;
+  padding-bottom: 2.25rem;
+  padding-left: 1.5rem;
 }
 
 // Flexbox

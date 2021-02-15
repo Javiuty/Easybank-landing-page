@@ -4,8 +4,6 @@ const header = document.querySelector(".header");
 const overlay = document.querySelector(".overlay");
 const fadeElems = document.querySelectorAll(".has-fade");
 
-console.log(fadeElems);
-
 btnHamburger.addEventListener("click", () => {
   if (header.classList.contains("open")) {
     // Close burger menu
